@@ -1,0 +1,8 @@
+<h3><strong>Profile</strong></h3>
+<div *ngIf="user" class="container">
+  <h2 class="page-header">Hi {{user.name}}</h2>
+  <ul class="list-group">
+    <li class="list-group-item">Username: {{user.username}}</li>
+    <li class="list-group-item">Email: {{user.email}}</li>
+  </ul>
+</div>
